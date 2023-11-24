@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd5a1348-72e4-41bf-9d19-d45e8fc62b93" name="Changes" comment="ACF updated in SiteController">
+      <change beforePath="$PROJECT_DIR$/.bowerrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vagrantfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/AppAsset.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeception.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/HelloController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/__autocomplete.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/params.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/test_db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/ArticleController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/SiteController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail/layouts/html.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail/layouts/text.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/m231109_043653_create_user_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/m231109_055638_create_article_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/ArticcleSearch.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Article.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/ContactForm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/LoginForm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/SignupForm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_data/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_output/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/AcceptanceTester.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/FunctionalTester.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/UnitTester.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/acceptance.suite.yml.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/acceptance/AboutCest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/acceptance/ContactCest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/acceptance/HomeCest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/acceptance/LoginCest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/acceptance/_bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/bin/yii" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/bin/yii.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/functional.suite.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/functional/ContactFormCest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/functional/LoginFormCest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/functional/_bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit.suite.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/_bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/models/ContactFormTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/models/LoginFormTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/models/UserTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/widgets/AlertTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vagrant/config/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vagrant/config/vagrant-local.example.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vagrant/nginx/app.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vagrant/nginx/log/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vagrant/provision/always-as-root.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vagrant/provision/once-as-root.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vagrant/provision/once-as-vagrant.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vagrant/provision/provision.awk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/article/_article_form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/article/_form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/article/_search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/article/create.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/article/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/article/update.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/article/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/site/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/site/error.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/site/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/site/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/site/signup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index-test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets/Alert.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii.bat" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerConfigs">
+    <option name="configs">
+      <option value="$PROJECT_DIR$/web/assets/66820efe/composer.json" />
+      <option value="$PROJECT_DIR$/assets/66820efe/composer.json" />
+    </option>
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/article/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alanshijo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="3a651620-8efb-4fc7-bafe-4e756dd0bf59" />
+        <option name="url" value="https://github.com/alanshijo/yii2-Article.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="D:\laragon\bin\php\php-8.1.10-Win32-vs16-x64\php.exe">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/behat/gherkin" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/cebe/markdown" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/codeception/lib-asserts" />
+      <path value="$PROJECT_DIR$/vendor/codeception/codeception" />
+      <path value="$PROJECT_DIR$/vendor/codeception/module-filesystem" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/codeception/lib-web" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/codeception/stub" />
+      <path value="$PROJECT_DIR$/vendor/codeception/lib-innerbrowser" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/codeception/verify" />
+      <path value="$PROJECT_DIR$/vendor/codeception/module-asserts" />
+      <path value="$PROJECT_DIR$/vendor/codeception/module-yii2" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-composer" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-gii" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap5" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-symfonymailer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-faker" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-debug" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/jquery" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/yii2-pjax" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/punycode" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/bootstrap" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/inputmask" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/vendor/masterminds/html5" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/php-diff" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/article/vendor/yiisoft/yii2-symfonymailer" />
+      <path value="$PROJECT_DIR$/article/vendor/yiisoft/yii2-gii" />
+      <path value="$PROJECT_DIR$/article/vendor/yiisoft/yii2-faker" />
+      <path value="$PROJECT_DIR$/article/vendor/yiisoft/yii2-debug" />
+      <path value="$PROJECT_DIR$/article/vendor/yiisoft/yii2-composer" />
+      <path value="$PROJECT_DIR$/article/vendor/yiisoft/yii2-bootstrap5" />
+      <path value="$PROJECT_DIR$/article/vendor/yiisoft/yii2" />
+      <path value="$PROJECT_DIR$/article/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/article/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/article/vendor/composer" />
+      <path value="$PROJECT_DIR$/article/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/article/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/article/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/article/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/article/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/article/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/article/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/article/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/article/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/article/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/article/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/article/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/article/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/article/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/article/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/article/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/article/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/article/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/article/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/article/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/article/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/article/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/article/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/article/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/article/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/article/vendor/phpspec/php-diff" />
+      <path value="$PROJECT_DIR$/article/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/article/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/article/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/article/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/article/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/article/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/article/vendor/behat/gherkin" />
+      <path value="$PROJECT_DIR$/article/vendor/cebe/markdown" />
+      <path value="$PROJECT_DIR$/article/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/article/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/article/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/article/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/article/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/article/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/article/vendor/masterminds/html5" />
+      <path value="$PROJECT_DIR$/article/vendor/codeception/verify" />
+      <path value="$PROJECT_DIR$/article/vendor/codeception/stub" />
+      <path value="$PROJECT_DIR$/article/vendor/codeception/module-yii2" />
+      <path value="$PROJECT_DIR$/article/vendor/codeception/module-filesystem" />
+      <path value="$PROJECT_DIR$/article/vendor/codeception/module-asserts" />
+      <path value="$PROJECT_DIR$/article/vendor/codeception/lib-web" />
+      <path value="$PROJECT_DIR$/article/vendor/codeception/lib-innerbrowser" />
+      <path value="$PROJECT_DIR$/article/vendor/codeception/lib-asserts" />
+      <path value="$PROJECT_DIR$/article/vendor/codeception/codeception" />
+      <path value="$PROJECT_DIR$/article/vendor/bower-asset/yii2-pjax" />
+      <path value="$PROJECT_DIR$/article/vendor/bower-asset/punycode" />
+      <path value="$PROJECT_DIR$/article/vendor/bower-asset/jquery" />
+      <path value="$PROJECT_DIR$/article/vendor/bower-asset/inputmask" />
+      <path value="$PROJECT_DIR$/article/vendor/bower-asset/bootstrap" />
+      <path value="$PROJECT_DIR$/article/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/article/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/article/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/article/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/article/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/article/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/article/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/article/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/article/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/article/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/article/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/article/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/article/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/article/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/article/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/article/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/article/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/article/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/article/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/article/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/article/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/article/vendor/doctrine/instantiator" />
+    </include_path>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2XvL5YwVCibBHpo9xJcwQqCxhHR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/xampp/htdocs/yii2-basic",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\yii2-basic\views\site" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings configuration_file="$PROJECT_DIR$/article/codeception.yml" scope="ConfigurationFile" use_alternative_configuration_file="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd5a1348-72e4-41bf-9d19-d45e8fc62b93" name="Changes" comment="" />
+      <created>1699504427363</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699504427363</updated>
+      <workItem from="1699504432963" duration="18222000" />
+      <workItem from="1699587233090" duration="1940000" />
+      <workItem from="1700731742529" duration="593000" />
+      <workItem from="1700801793628" duration="1150000" />
+      <workItem from="1700808410890" duration="1291000" />
+    </task>
+    <task id="LOCAL-00001" summary="ACF updated in SiteController">
+      <option name="closed" value="true" />
+      <created>1699529349898</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699529349898</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="ACF updated in SiteController" />
+    <option name="LAST_COMMIT_MESSAGE" value="ACF updated in SiteController" />
+  </component>
+</project>
